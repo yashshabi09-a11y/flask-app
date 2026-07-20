@@ -4,7 +4,7 @@ pipeline {
 
     environment {
 
-        IMAGE_NAME = "yashshabi/flask-app:5"
+        IMAGE_NAME = "yashshabi/flask-app"
 
     }
 
