@@ -4,7 +4,7 @@ pipeline {
 
     environment {
 
-        IMAGE_NAME = "yourdockerhub/flask-app"
+        IMAGE_NAME = "yashshabi/flask-app:5"
 
     }
 
@@ -38,7 +38,7 @@ pipeline {
                     '''
                 }
 
-            }
+            }:
         }
 
         stage('Push Image') {
